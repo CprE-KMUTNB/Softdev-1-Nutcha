@@ -1,0 +1,2124 @@
+[
+    {
+        "id": "d4961858f1720a8c",
+        "type": "tab",
+        "label": "HomeKit control",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e885623eb3f134ba",
+        "type": "tab",
+        "label": "Scene Button",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9c39f5e29c28360f",
+        "type": "tab",
+        "label": "RFID Unlock",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aa641ab78c2ed174",
+        "type": "tab",
+        "label": "Motion Detect",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3a7824226fcfa66d",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0e4ab44ae87e0b0e",
+        "type": "tab",
+        "label": "Plug power Detect",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "46920e9b4c1cdd49",
+        "type": "homekit-bridge",
+        "bridgeName": "First Bridge",
+        "pinCode": "310-99-975",
+        "port": "",
+        "advertiser": "bonjour-hap",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "customMdnsConfig": true,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
+    },
+    {
+        "id": "eaa22b4a66217f1b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "softdevproj.local",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "23f418ca840e7af3",
+        "type": "homekit-bridge",
+        "bridgeName": "Software Dev Bridge",
+        "pinCode": "270-06-725",
+        "port": "",
+        "advertiser": "bonjour-hap",
+        "allowInsecureRequest": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "customMdnsConfig": false,
+        "mdnsMulticast": true,
+        "mdnsInterface": "",
+        "mdnsPort": "",
+        "mdnsIp": "",
+        "mdnsTtl": "",
+        "mdnsLoopback": true,
+        "mdnsReuseAddr": true,
+        "allowMessagePassthrough": true
+    },
+    {
+        "id": "f5867cba9e9a08a5",
+        "type": "websocket-listener",
+        "path": "/ws/espRelay",
+        "wholemsg": "false"
+    },
+    {
+        "id": "6dce820d2d168182",
+        "type": "ui_tab",
+        "name": "Office",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d208e1e08302fe5f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e08a2ebb882c1f11",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "6dce820d2d168182",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d8d69452e3856b8",
+        "type": "websocket-listener",
+        "path": "/ws/rfidScan",
+        "wholemsg": "false"
+    },
+    {
+        "id": "4a0ecb93726d4ee2",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "localInflux",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "eeb221fb.ab27f",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "test",
+        "name": "test",
+        "usetls": true,
+        "tls": "d50d0c9f.31e858",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "d50d0c9f.31e858",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "4493c702a7b7890e",
+        "type": "mongodb-config",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "testrfid",
+        "name": ""
+    },
+    {
+        "id": "bbece298818f699b",
+        "type": "mongodb4-client",
+        "name": "",
+        "protocol": "mongodb",
+        "hostname": "localhost",
+        "port": "27017",
+        "dbName": "testrfid",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    },
+    {
+        "id": "1d210053fdca60a4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ec9fd7e1eb892a57",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 1",
+        "serviceName": "Switch",
+        "topic": "SW1",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.1",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 820,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "77414deffe289d32",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "HomeKit Switch Parse",
+        "func": "var relayIndex = msg.topic.slice(2)\n// var output = {}\n// output[relayIndex] = msg.payload.On\nmsg['payload'] = {\n    index : parseInt(relayIndex), \n    On:msg.payload\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 1100,
+        "wires": [
+            [
+                "537bab37b864ec97"
+            ]
+        ]
+    },
+    {
+        "id": "fd4f7a7bf919e684",
+        "type": "websocket in",
+        "z": "d4961858f1720a8c",
+        "name": "espRelay websocket",
+        "server": "f5867cba9e9a08a5",
+        "client": "",
+        "x": 490,
+        "y": 1040,
+        "wires": [
+            [
+                "0793a45651c737ca"
+            ]
+        ]
+    },
+    {
+        "id": "537bab37b864ec97",
+        "type": "websocket out",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "server": "f5867cba9e9a08a5",
+        "client": "",
+        "x": 1790,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "35f60c16c376b211",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 2",
+        "serviceName": "Switch",
+        "topic": "SW2",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 860,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d65c32015584b11b",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "HomeKit Switch Parse",
+        "func": "var relayIndex = msg.topic.slice(2)\n// var output = {}\n// output[relayIndex] = msg.payload.On\nmsg['payload'] = {\n    index : parseInt(relayIndex), \n    On:msg.payload.On\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 1020,
+        "wires": [
+            [
+                "537bab37b864ec97"
+            ]
+        ]
+    },
+    {
+        "id": "5cf95206b86ca61f",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 3",
+        "serviceName": "Switch",
+        "topic": "SW3",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 900,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0d7efc2dcd024123",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 4",
+        "serviceName": "Switch",
+        "topic": "SW4",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 940,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e0a1717e594a2b24",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 5",
+        "serviceName": "Switch",
+        "topic": "SW5",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 980,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6f692c07f38fee33",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Array Switch 6",
+        "serviceName": "Switch",
+        "topic": "SW6",
+        "filter": true,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 1220,
+        "y": 1020,
+        "wires": [
+            [
+                "d65c32015584b11b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a447148f10369364",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 1",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW1",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1100,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "028884edf88cd447",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 2",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW2",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1140,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "52078e96cd477e7a",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 3",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW3",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1180,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "323f892856bf9ba3",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 4",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW4",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1220,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "de562d7068b2ca58",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 5",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW5",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1260,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "402fd5da419de7fd",
+        "type": "ui_switch",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "label": "Switch 6",
+        "tooltip": "",
+        "group": "e08a2ebb882c1f11",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "SW6",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1240,
+        "y": 1300,
+        "wires": [
+            [
+                "77414deffe289d32"
+            ]
+        ]
+    },
+    {
+        "id": "6b0ca4cb59debfb5",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "HomeKit Switch Parse",
+        "func": "var msgIn = msg.payload\n// var relayIndex = msg.topic.slice(2)\n// var output = {}\n// output[relayIndex] = msg.payload.On\nmsg = {\n    topic : `SW${msgIn.index}`, \n    payload : {On : msg.payload.On}\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 880,
+        "wires": [
+            [
+                "ec9fd7e1eb892a57",
+                "5cf95206b86ca61f",
+                "0d7efc2dcd024123",
+                "e0a1717e594a2b24",
+                "6f692c07f38fee33",
+                "35f60c16c376b211"
+            ]
+        ]
+    },
+    {
+        "id": "efe9940e0f6b2293",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "Homekit and Switch Convert",
+        "func": "var index = msg.payload.index\n// var output = new Array(6);\nvar output = [];\nindex = parseInt(index) - 1\n// return {payload : index}\n// if (msg.payload.On != undefined){\n//     output[index] = {payload: msg.payload.On, topic : msg.topic , index : index}\n//     return output\n// }\n// else if (msg.payload === true || msg.payload === false){\n//     output[index] = {payload : {On : msg.payload},topic : msg.topic , index : index};\n//     return output\n// }\n// else {\n    output[index] = { payload: msg.payload.On, topic: `SW${index}`};\n    return output\n// }",
+        "outputs": 6,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1200,
+        "wires": [
+            [
+                "a447148f10369364"
+            ],
+            [
+                "028884edf88cd447"
+            ],
+            [
+                "52078e96cd477e7a"
+            ],
+            [
+                "323f892856bf9ba3"
+            ],
+            [
+                "de562d7068b2ca58"
+            ],
+            [
+                "402fd5da419de7fd"
+            ]
+        ]
+    },
+    {
+        "id": "0793a45651c737ca",
+        "type": "json",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 690,
+        "y": 1040,
+        "wires": [
+            [
+                "6b0ca4cb59debfb5",
+                "efe9940e0f6b2293"
+            ]
+        ]
+    },
+    {
+        "id": "9e626108e7c97e04",
+        "type": "mqtt in",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "topic": "softdevZB2MQTT/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 450,
+        "y": 980,
+        "wires": [
+            [
+                "8e3655ce1524a0b1"
+            ]
+        ]
+    },
+    {
+        "id": "8e3655ce1524a0b1",
+        "type": "debug",
+        "z": "d4961858f1720a8c",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "808af48163c22308",
+        "type": "mqtt in",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 490,
+        "y": 1480,
+        "wires": [
+            [
+                "4c56e7ccb4b1e287"
+            ]
+        ]
+    },
+    {
+        "id": "491c90f8e30cf76b",
+        "type": "mqtt out",
+        "z": "d4961858f1720a8c",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "eaa22b4a66217f1b",
+        "x": 1500,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "d799a4a7f671e5f6",
+        "type": "homekit-service",
+        "z": "d4961858f1720a8c",
+        "isParent": true,
+        "hostType": "0",
+        "bridge": "23f418ca840e7af3",
+        "accessoryId": "",
+        "parentService": "",
+        "name": "Zigbee Lamp",
+        "serviceName": "Lightbulb",
+        "topic": "",
+        "filter": false,
+        "manufacturer": "NRCHKB",
+        "model": "1.5.0",
+        "serialNo": "Default Serial Number",
+        "firmwareRev": "1.5.0",
+        "hardwareRev": "1.5.0",
+        "softwareRev": "1.5.0",
+        "cameraConfigVideoProcessor": "ffmpeg",
+        "cameraConfigSource": "",
+        "cameraConfigStillImageSource": "",
+        "cameraConfigMaxStreams": 2,
+        "cameraConfigMaxWidth": 1280,
+        "cameraConfigMaxHeight": 720,
+        "cameraConfigMaxFPS": 10,
+        "cameraConfigMaxBitrate": 300,
+        "cameraConfigVideoCodec": "libx264",
+        "cameraConfigAudioCodec": "libfdk_aac",
+        "cameraConfigAudio": false,
+        "cameraConfigPacketSize": 1316,
+        "cameraConfigVerticalFlip": false,
+        "cameraConfigHorizontalFlip": false,
+        "cameraConfigMapVideo": "0:0",
+        "cameraConfigMapAudio": "0:1",
+        "cameraConfigVideoFilter": "scale=1280:720",
+        "cameraConfigAdditionalCommandLine": "-tune zerolatency",
+        "cameraConfigDebug": false,
+        "cameraConfigSnapshotOutput": "disabled",
+        "cameraConfigInterfaceName": "",
+        "characteristicProperties": "{\"Brightness\":true}",
+        "waitForSetupMsg": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 1480,
+        "wires": [
+            [
+                "70aa4d2e05f5cad6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "70aa4d2e05f5cad6",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "HomeKit Switch Parse",
+        "func": "// var relayIndex = msg.topic.slice(2)\n// var output = {}\n// output[relayIndex] = msg.payload.On\n/*msg['payload'] = {\n    index : parseInt(relayIndex), \n    On:msg.payload.On\n}*/\nif (msg.payload.On != undefined){\n    msg.payload = {\"state\" : msg.payload.On ? \"ON\" : \"OFF\"}\n}\nif (msg.payload.Brightness != undefined){\n    msg.payload.brightness = parseInt(msg.payload.Brightness / 100 * 255)\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 1480,
+        "wires": [
+            [
+                "ae652eede50a7c77",
+                "491c90f8e30cf76b"
+            ]
+        ]
+    },
+    {
+        "id": "ae652eede50a7c77",
+        "type": "debug",
+        "z": "d4961858f1720a8c",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "a321f8f79ae04340",
+        "type": "link in",
+        "z": "d4961858f1720a8c",
+        "name": "WS Relay Control",
+        "links": [
+            "7c355da92507f438"
+        ],
+        "x": 1545,
+        "y": 1060,
+        "wires": [
+            [
+                "537bab37b864ec97"
+            ]
+        ]
+    },
+    {
+        "id": "4c56e7ccb4b1e287",
+        "type": "function",
+        "z": "d4961858f1720a8c",
+        "name": "HomeKit Switch Parse",
+        "func": "var msgIn = msg.payload\nvar state = msgIn.state\n// var relayIndex = msg.topic.slice(2)\n// var output = {}\n// output[relayIndex] = msg.payload.On\nmsg = {\n    payload : {On : state == \"ON\"}\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1480,
+        "wires": [
+            [
+                "d799a4a7f671e5f6"
+            ]
+        ]
+    },
+    {
+        "id": "87887e3ba037e73d",
+        "type": "mqtt in",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "topic": "softdevZB2MQTT/tuya3SW1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 480,
+        "wires": [
+            [
+                "5d7ef31b1f4d6692"
+            ]
+        ]
+    },
+    {
+        "id": "5d7ef31b1f4d6692",
+        "type": "function",
+        "z": "e885623eb3f134ba",
+        "name": "Zigbee Switch Parser",
+        "func": "var output = msg.payload.action\noutput = output.split(\"_\")\nmsg.payload = {}\nmsg.payload.index = output[0]\nmsg.payload.state = output[1]\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 480,
+        "wires": [
+            [
+                "7eea704d9f9ca31b"
+            ]
+        ]
+    },
+    {
+        "id": "7eea704d9f9ca31b",
+        "type": "function",
+        "z": "e885623eb3f134ba",
+        "name": "zigbee to ws",
+        "func": "var index = msg.payload.index\nvar state = msg.payload.state\nindex = `${index}`\nmsg.payload = {}\nmsg.payload.index = parseInt(index)\nmsg.payload.On = (state == \"single\")\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 480,
+        "wires": [
+            [
+                "d265138c0e7ebb2b",
+                "0bfeae6b81f715d4"
+            ]
+        ]
+    },
+    {
+        "id": "d265138c0e7ebb2b",
+        "type": "debug",
+        "z": "e885623eb3f134ba",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "0bfeae6b81f715d4",
+        "type": "switch",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "property": "payload.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1010,
+        "y": 480,
+        "wires": [
+            [
+                "448826c5f52771e6",
+                "57dae8606931ad77"
+            ],
+            [
+                "2769679f7addf859",
+                "f7d908898c5fb556"
+            ],
+            [
+                "87e4854e18d97201",
+                "480233e3146b54cb"
+            ]
+        ]
+    },
+    {
+        "id": "57dae8606931ad77",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 380,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "448826c5f52771e6",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 420,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "2769679f7addf859",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 460,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "f7d908898c5fb556",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "4",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 500,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "87e4854e18d97201",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 540,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "480233e3146b54cb",
+        "type": "change",
+        "z": "e885623eb3f134ba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.index",
+                "pt": "msg",
+                "to": "6",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 580,
+        "wires": [
+            [
+                "7c355da92507f438"
+            ]
+        ]
+    },
+    {
+        "id": "7c355da92507f438",
+        "type": "link out",
+        "z": "e885623eb3f134ba",
+        "name": "WS Relay Out",
+        "mode": "link",
+        "links": [
+            "a321f8f79ae04340"
+        ],
+        "x": 1465,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "dcc928ed77648910",
+        "type": "http in",
+        "z": "9c39f5e29c28360f",
+        "name": "",
+        "url": "/test/rfid:tag",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "d0e659576a922478"
+            ]
+        ]
+    },
+    {
+        "id": "d0e659576a922478",
+        "type": "function",
+        "z": "9c39f5e29c28360f",
+        "name": "function 4",
+        "func": "msg.payload = {\"tag\":msg.req.params.tag.split(\":\")[1]}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "38c28dbaf3877155",
+                "15463a32ada1af11"
+            ]
+        ]
+    },
+    {
+        "id": "38c28dbaf3877155",
+        "type": "mongodb4",
+        "z": "9c39f5e29c28360f",
+        "clientNode": "bbece298818f699b",
+        "mode": "collection",
+        "collection": "rfidDevice",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 810,
+        "y": 400,
+        "wires": [
+            [
+                "4a7764f00296bcda"
+            ]
+        ]
+    },
+    {
+        "id": "4a7764f00296bcda",
+        "type": "switch",
+        "z": "9c39f5e29c28360f",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 400,
+        "wires": [
+            [
+                "8446d8dba30e4b65"
+            ],
+            [
+                "27e320ce6d66a8ef"
+            ]
+        ]
+    },
+    {
+        "id": "e5bf77c8ad772e13",
+        "type": "http response",
+        "z": "9c39f5e29c28360f",
+        "name": "rfid post return",
+        "statusCode": "200",
+        "headers": {
+            "ok": "true"
+        },
+        "x": 1320,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8446d8dba30e4b65",
+        "type": "change",
+        "z": "9c39f5e29c28360f",
+        "name": "Pass",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"pass\":true}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 380,
+        "wires": [
+            [
+                "e5bf77c8ad772e13"
+            ]
+        ]
+    },
+    {
+        "id": "27e320ce6d66a8ef",
+        "type": "change",
+        "z": "9c39f5e29c28360f",
+        "name": "Denied",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"pass\":false}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 420,
+        "wires": [
+            [
+                "e5bf77c8ad772e13"
+            ]
+        ]
+    },
+    {
+        "id": "15463a32ada1af11",
+        "type": "debug",
+        "z": "9c39f5e29c28360f",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "88fc00bb51be0b98",
+        "type": "inject",
+        "z": "aa641ab78c2ed174",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":\"ON\"}",
+        "payloadType": "json",
+        "x": 630,
+        "y": 220,
+        "wires": [
+            [
+                "d04c73a7630db914"
+            ]
+        ]
+    },
+    {
+        "id": "d04c73a7630db914",
+        "type": "mqtt out",
+        "z": "aa641ab78c2ed174",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "eaa22b4a66217f1b",
+        "x": 890,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ab1881694a323408",
+        "type": "function",
+        "z": "aa641ab78c2ed174",
+        "name": "Motion Detect to Zigbee2MQTT",
+        "func": "// msg.payload['state'] = msg.payload == 1 ? \"ON\" : \"OFF\"\nmsg.payload = {state:msg.payload == 1 ? \"ON\" : \"OFF\"}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 300,
+        "wires": [
+            [
+                "d04c73a7630db914",
+                "67567d0c65bae563"
+            ]
+        ]
+    },
+    {
+        "id": "67567d0c65bae563",
+        "type": "debug",
+        "z": "aa641ab78c2ed174",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2871253cedf4b67b",
+        "type": "mqtt in",
+        "z": "aa641ab78c2ed174",
+        "name": "",
+        "topic": "motionDetect/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "ab1881694a323408"
+            ]
+        ]
+    },
+    {
+        "id": "acb86248ada88800",
+        "type": "inject",
+        "z": "aa641ab78c2ed174",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":\"OFF\"}",
+        "payloadType": "json",
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "d04c73a7630db914"
+            ]
+        ]
+    },
+    {
+        "id": "833db30a8cb93f9c",
+        "type": "http in",
+        "z": "3a7824226fcfa66d",
+        "name": "",
+        "url": "/foo",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "cb9236ba739c664e"
+            ]
+        ]
+    },
+    {
+        "id": "f0a3fead9252c48a",
+        "type": "http response",
+        "z": "3a7824226fcfa66d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "798019ce7bc287c6",
+        "type": "tcp in",
+        "z": "3a7824226fcfa66d",
+        "name": "",
+        "server": "server",
+        "host": "",
+        "port": "1882",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "c2ab47e157cea238",
+                "93d1a184c7381891"
+            ]
+        ]
+    },
+    {
+        "id": "eeacbf575d4041f8",
+        "type": "debug",
+        "z": "3a7824226fcfa66d",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e8d7a1526a7361cf",
+        "type": "tcp out",
+        "z": "3a7824226fcfa66d",
+        "name": "",
+        "host": "",
+        "port": "",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 230,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c2ab47e157cea238",
+        "type": "template",
+        "z": "3a7824226fcfa66d",
+        "name": "Send 200 OK",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "HTTP/1.1 200 \nConnection: Close\nContent-Length: 2\n\nOK",
+        "output": "str",
+        "x": 220,
+        "y": 400,
+        "wires": [
+            [
+                "e8d7a1526a7361cf"
+            ]
+        ]
+    },
+    {
+        "id": "93d1a184c7381891",
+        "type": "function",
+        "z": "3a7824226fcfa66d",
+        "name": "Parse Request",
+        "func": "let rawBody = msg.payload.split('\\r\\n\\r\\n')[1]\nnode.warn(msg.payload)\nlet r = httpZ.parse(msg.payload);\n\nlet h = {}\nfor (let i = 0; i < r.headers.length; i++) {\n    let n = {}\n    n[r.headers[i]['name']] = r.headers[i]['value']\n    Object.assign(h, n);\n}\nr.headers = h\nr.rawBody = rawBody\nmsg.payload = r\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "httpZ",
+                "module": "http-z"
+            }
+        ],
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "eeacbf575d4041f8"
+            ]
+        ]
+    },
+    {
+        "id": "cb9236ba739c664e",
+        "type": "function",
+        "z": "3a7824226fcfa66d",
+        "name": "Redirect to Port 1882",
+        "func": "let hostname = msg.req.headers.host.split(\":\")[0]\nmsg.headers ={}\nmsg.headers.location = `http://${hostname}:1882${msg.req.url}`\nmsg.statusCode = 307\nmsg.payload = ''\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "f0a3fead9252c48a"
+            ]
+        ]
+    },
+    {
+        "id": "380c02ea16f6a140",
+        "type": "mqtt in",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "",
+        "topic": "softdevZB2MQTT/miPlug1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 550,
+        "y": 320,
+        "wires": [
+            [
+                "f922f3924e48849d"
+            ]
+        ]
+    },
+    {
+        "id": "541ac83162f3581d",
+        "type": "debug",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f922f3924e48849d",
+        "type": "function",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "function 5",
+        "func": "// msg.payload = msg.payload.consumption\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 400,
+        "wires": [
+            [
+                "541ac83162f3581d",
+                "89edccd789352d6b"
+            ]
+        ]
+    },
+    {
+        "id": "09f3ed1c825a6094",
+        "type": "mqtt out",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "eaa22b4a66217f1b",
+        "x": 1240,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "89edccd789352d6b",
+        "type": "function",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "function 6",
+        "func": "msg.payload.state = msg.payload.power > 2 ? \"ON\" : \"OFF\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 320,
+        "wires": [
+            [
+                "09f3ed1c825a6094"
+            ]
+        ]
+    },
+    {
+        "id": "ba68e8ada6c2e338",
+        "type": "mqtt out",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1/get",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "eaa22b4a66217f1b",
+        "x": 880,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "790c9e07be128329",
+        "type": "debug",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "fd9d7aba0cff46d8",
+        "type": "mqtt in",
+        "z": "0e4ab44ae87e0b0e",
+        "name": "",
+        "topic": "softdevZB2MQTT/zigbeeLamp1/get",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eaa22b4a66217f1b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 540,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    }
+]
