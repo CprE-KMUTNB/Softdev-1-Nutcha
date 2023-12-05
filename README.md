@@ -2,7 +2,11 @@
 
 Here's that plan of this project <br>
 <p align="center">
-    <img src="images/diagram_svg.svg" alt="image" height="600"><br>
+    <img 
+        src="images/diagram_svg.svg" alt="image" 
+        style=" padding:20px; background-color: white;" 
+        height="600"
+    >
 </p>
 
 ## Overview
@@ -15,9 +19,9 @@ This board is connected to the same WiFi network as the Node-RED and communicate
 1. Zigbee Devices <br>
 These device connect to Node-RED by a dongle which forward the message to the MQTT broker through Zigbee2MQTT. Zigbee2MQTT also has it's own web interface so that we can config.
 1. Motion Detector <br>
-This device operates by sensing the motion sensor and and sends it to the [MQTT](#mqtt) broker
+This device operates by sensing the motion sensor and and sends it to the [MQTT](#more-about-mqtt) broker
 
-## MQTT
+## More about MQTT
 <p>
 MQTT in simple term is like a chat server for IOT devices. There are 2 main types of operations that MQTT provides. Each are based on something called "Topic" which is like a chat room we're in when someone send some message to the topic everyone recieves and vise-versa.
 </p>
@@ -26,5 +30,5 @@ The two operations mentioned earlier are called "Publish" and "Subscribe", the d
 </p>
 
 <p align="center">
-    <img src="images/mqtt-publish-subscribe.svg" alt="image" height="600"><br>
+    <img src="images/mqtt-publish-subscribe.svg" style="background-color: white;" alt="image" height="500"><br>
 </p>
