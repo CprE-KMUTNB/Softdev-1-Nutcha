@@ -3,8 +3,7 @@
 Here's that plan of this project <br>
 <p align="center">
     <img 
-        src="images/diagram_svg.svg" alt="image" 
-        style=" padding:20px; background-color: white;" 
+        src="images/diagram_svg.svg" alt="image"
         height="600"
     >
 </p>
@@ -30,5 +29,5 @@ The two operations mentioned earlier are called "Publish" and "Subscribe", the d
 </p>
 
 <p align="center">
-    <img src="images/mqtt-publish-subscribe.svg" style="background-color: white;" alt="image" height="500"><br>
+    <img src="images/mqtt-publish-subscribe.svg"alt="image" height="500"><br>
 </p>
