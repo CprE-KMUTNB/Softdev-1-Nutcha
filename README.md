@@ -1,6 +1,6 @@
 # The Home office automation project
 
-Here's that plan of this project <br>
+Block diagram <br>
 <p align="center">
     <img 
         src="images/diagram_svg.svg" alt="image"
@@ -19,3 +19,5 @@ This board is connected to the same WiFi network as the Node-RED and communicate
 These device connect to Node-RED by a dongle which forward the message to the MQTT broker through Zigbee2MQTT. Zigbee2MQTT also has it's own web interface so that we can config.
 1. Motion Detector <br>
 This device operates by sensing the motion sensor and and sends it to the [MQTT](#more-about-mqtt) broker
+1. Scan card <br>
+    which cards can be scanned by collecting their RFID. 
