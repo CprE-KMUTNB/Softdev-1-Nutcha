@@ -19,15 +19,3 @@ This board is connected to the same WiFi network as the Node-RED and communicate
 These device connect to Node-RED by a dongle which forward the message to the MQTT broker through Zigbee2MQTT. Zigbee2MQTT also has it's own web interface so that we can config.
 1. Motion Detector <br>
 This device operates by sensing the motion sensor and and sends it to the [MQTT](#more-about-mqtt) broker
-
-## More about MQTT
-<p>
-MQTT in simple term is like a chat server for IOT devices. There are 2 main types of operations that MQTT provides. Each are based on something called "Topic" which is like a chat room we're in when someone send some message to the topic everyone recieves and vise-versa.
-</p>
-<p>
-The two operations mentioned earlier are called "Publish" and "Subscribe", the device which wants to send the message will "Publish" the data to the "Topic" and then the devices that are "Subscribe" to that topic will recieves it like shown in below diagram.
-</p>
-
-<p align="center">
-    <img src="images/mqtt-publish-subscribe.svg"alt="image" height="500"><br>
-</p>
